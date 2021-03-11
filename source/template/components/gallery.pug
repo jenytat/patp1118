@@ -1,0 +1,176 @@
+header.header
+    .header__top.wrapper
+        .header__logo
+            a(href="./").logo
+                img(src="./images/icon/logo.svg", alt="logo")
+            span Регулярные внутригородские и пригородные пассажирские перевозки
+        .header__tel
+            a(href="tel:+73833801118") 
+                img(src="./images/icon/phone.svg", alt="phone")
+                | (383) 380-11-18
+            a(href="tel:+73832551118") 
+                img(src="./images/icon/phone.svg", alt="phone")
+                | (383) 255-11-18
+    nav.menu
+        .wrapper
+            ul
+                li
+                    a(href="./") Главная
+                li
+                    a(href="#") О компании
+                li
+                    a(href="#") Маршруты
+                li.active
+                    a(href="#") Вакансии
+                li
+                    a(href="#") Вопрос ответ
+                li
+                    a(href="#") Новости
+                li
+                    a(href="#") Контакты
+        .menu__mobile
+            .menu__burger
+                span
+                span
+                span
+            ul
+                li
+                    a(href="./") Главная
+                li
+                    a(href="#") О компании
+                li
+                    a(href="#") Маршруты
+                li.active
+                    a(href="#") Вакансии
+                li
+                    a(href="#") Вопрос ответ
+                li
+                    a(href="#") Новости
+                li
+                    a(href="#") Контакты
+.breadcrumbs.wrapper
+    a(href="./") Главная
+    img(src="./images/icon/menu.svg", alt="breadcrumbs")
+    a(href="#") Вакансии
+.job.wrapper
+    h1 Вакансии
+    .job__wrap
+        .job__item
+            .job__date
+                span 8 октября
+            .job__name
+                h3 Водитель категории D
+            .job__info
+                .job__block
+                    h4 Обязанности:
+                    ul
+                        li Перевозка людей
+                        li Участие в ремонте
+                .job__block
+                    h4 Требования:
+                    ul
+                        li Опыт работы на пассажирском транспорте обязателен;
+                        li Наличие карты водителя с блоком СКЗИ.
+                .job__block
+                    h4 Условия:
+                    ul
+                        li Графики работы: 5/2, сменный график;
+                        li Трудоустройство в соответствии с ТК РФ;
+                        li Заработная плата 2 раза в месяц (15 и 30 числа) на карту;
+                        li Ремонтная база на территории работодателя.
+        .job__item
+            .job__date
+                span 8 октября
+            .job__name
+                h3 Водитель категории D
+            .job__info
+                .job__block
+                    h4 Обязанности:
+                    ul
+                        li Перевозка людей
+                        li Участие в ремонте
+                .job__block
+                    h4 Требования:
+                    ul
+                        li Опыт работы на пассажирском транспорте обязателен;
+                        li Наличие карты водителя с блоком СКЗИ.
+                .job__block
+                    h4 Условия:
+                    ul
+                        li Графики работы: 5/2, сменный график;
+                        li Трудоустройство в соответствии с ТК РФ;
+                        li Заработная плата 2 раза в месяц (15 и 30 числа) на карту;
+                        li Ремонтная база на территории работодателя.
+        .job__item
+            .job__date
+                span 8 октября
+            .job__name
+                h3 Водитель категории D
+            .job__info
+                .job__block
+                    h4 Обязанности:
+                    ul
+                        li Перевозка людей
+                        li Участие в ремонте
+                .job__block
+                    h4 Требования:
+                    ul
+                        li Опыт работы на пассажирском транспорте обязателен;
+                        li Наличие карты водителя с блоком СКЗИ.
+                .job__block
+                    h4 Условия:
+                    ul
+                        li Графики работы: 5/2, сменный график;
+                        li Трудоустройство в соответствии с ТК РФ;
+                        li Заработная плата 2 раза в месяц (15 и 30 числа) на карту;
+                        li Ремонтная база на территории работодателя.
+section.form-block
+    .wrapper
+        h2 Для отклика на вакансию <br> заполните, форму ниже
+        .form-block__wrap
+            form(action="#")
+                .form-block__col
+                    input(type="text", placeholder="Имя*")
+                    input(type="tel", placeholder="Номер телефона*")
+                    input(type="email", placeholder="E-mail")
+                .form-block__col
+                    input(type="text", placeholder="Желаемая должность")
+                    textarea(name="text", cols="30", rows="10", placeholder="Дополнительная информация о себе")
+                    .form-group
+                        input(type="file", name="file")#file
+                        label(for="file").form-group__label
+                            span.form-group__text Прикрепить файл резюме
+                            img(src="./images/icon/clip.svg", alt="clip")
+                .form-block__check
+                    input(type="checkbox", name="check")#check
+                    label(for="check") Я даю согласие на обработку персональных данных
+                input(type="submit", value="ОТПРАВИТЬ")
+footer.footer
+    .footer__top.wrapper
+        a(href="./").logo
+            img(src="./images/icon/logo-footer.svg", alt="logo")
+        .footer__adress
+            img(src="./images/icon/map.svg", alt="adress")
+            p 630110, г. Новосибирск ул. Писемского, 24/2
+        .footer__tel
+            img(src="./images/icon/phone.svg", alt="phone")
+            .footer__tel_wrap
+                a(href="tel:+73833801118") (383) 380-11-18
+                a(href="tel:+73832551118") (383) 255-11-18
+        .footer__mail
+            img(src="./images/icon/mail.svg", alt="mail")
+            a(href="mailto:patp1118@patp1118.ru") patp1118@patp1118.ru
+    .footer__bottom
+        .wrapper
+            .footer__text
+                p © 2020  patp1118.ru
+                    a(href="#") Политика конфиденциальности
+                p 
+                    a(href="mailto:patp1118@patp1118.ru") patp1118@patp1118.ru 
+                    | — электронная почта для обращений c вопросом о своих персональных данных, в том числе об их удалении.
+            .footer__links
+                .footer__links_wrap
+                    a(href="#") Создание сайтов
+                    a(href="#") Продвижение сайтов
+                a(href="#") 
+                    img(src="./images/icon/kontur.svg", alt="kontur")
